@@ -1,3 +1,6 @@
+# 0.4.4 (github, pypi and conda: 2021.11.30)
+* adding package path to dll search path, solves #72
+
 # 0.4.3 (github, pypi and conda: 2021.11.30)
 * fixed bug when translating datetime to string when writing.
 
