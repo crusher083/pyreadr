@@ -46,7 +46,7 @@ elif platform.system() == 'Windows':
                         #data_folder + "libbz2-1.dll",
                         #data_folder + "liblzma-5.dll"])]
                         
-    library_dirs.append(data_folder)
+    library_dirs.append("win_libs/64bit/")
     libraries.append('z')
     libraries.append('iconv')
     libraries.append('bz2')
