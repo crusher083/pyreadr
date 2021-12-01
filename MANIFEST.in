@@ -6,5 +6,5 @@ include *.pxd
 recursive-include pyreadr *.pxd
 include *.c
 recursive-include pyreadr/libs *.c
-recursive-include pyreadr *.dll
-recursive-include pyreadr *.lib
+recursive-include pyreadr/win_libs/64bit *.dll
+recursive-include pyreadr/win_libs/64bit *.lib
