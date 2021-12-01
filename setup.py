@@ -40,13 +40,13 @@ elif platform.system() == 'Windows':
     include_dirs.append('pyreadr/libs/iconv')
     library_dirs.append('pyreadr/libs/librdata')
     
-    data_folders = ["win_libs/64bit/*.dll", "win_libs/64bit/*.lib"]
+    data_folders = ["*.dll", "*.lib"]
     #data_files = [("Lib/site-packages/pyreadr", [data_folder + "zlib.dll", data_folder + "iconv.dll",
                         #data_folder + "charset.dll", data_folder + "iconv.lib",
                         #data_folder + "libbz2-1.dll",
                         #data_folder + "liblzma-5.dll"])]
                         
-    library_dirs.append("win_libs/64bit/")
+    library_dirs.append(".")
     libraries.append('z')
     libraries.append('iconv')
     libraries.append('bz2')
